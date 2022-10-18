@@ -1,16 +1,8 @@
-#sidebar{
-	position: fixed;
-	background-color: red;
-	right: 0%;
-	height: 100%;
-	width: 20%;
-}
-
 #main-navbar{
 	background-color: blue;
-	float: left;
 	position: relative;
 	width: 100%;
+	text-align: center;
 }
 
 #navbar-container{
@@ -22,17 +14,18 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-
+	position: relative;
+	display: inline-block;
 }
 
 #navbar-container ul li{
 	float: left;
+	display: block;
 }
 
 #navbar-container ul li a{
 	color: #fff;
 	padding: 10px 20px;
-	text-deocration: none;
 	display: block;
 }
 
@@ -40,16 +33,21 @@
 	background-color: #000;
 }
 
+#navbar-container ul li a:link{
+	text-decoration: none;
+}
+
 #onpage{
 	text-decoration: underline overline;
 }
 
-
-
-
-
-
-
+#sidebar{
+	position: fixed;
+	background-color: red;
+	right: 0%;
+	height: 100%;
+	width: 20%;
+}
 
 #sidebar-container ul{
 	list-style-type: none;
