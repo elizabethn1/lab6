@@ -27,3 +27,7 @@
 	padding: 15px 0;
 	color: #fff;
 }
+
+#sidebar-container ul li a:hover{
+	background-color: #000;
+}
