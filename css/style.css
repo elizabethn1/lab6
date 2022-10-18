@@ -4,6 +4,29 @@
 	float: left;
 }
 
+#navbar-container{
+
+}
+
+#navbar-container ul{
+
+}
+
+#navbar-container ul li{
+
+}
+
+#navbar-container ul li a{
+	color: #fff;
+	padding: 10px 20px;
+	text-deocration: none;
+	display: block;
+}
+
+#onpage{
+	text-decoration: underline overline;
+}
+
 #sidebar{
 	position: fixed;
 	background-color: red;
