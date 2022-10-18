@@ -12,6 +12,16 @@
 	width: 20%;
 }
 
-#sidebar-container{
-	color: #fff;
+#sidebar-container ul{
+	
+}
+
+#sidebar-container ul li{
+
+}
+
+#sidebar-container ul li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
 }
