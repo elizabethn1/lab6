@@ -1,5 +1,6 @@
 #main-navbar{
 	background-color: blue;
+	float: left;
 	position: relative;
 }
 
@@ -12,6 +13,7 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 #navbar-container ul li{
@@ -32,6 +34,14 @@
 #onpage{
 	text-decoration: underline overline;
 }
+
+
+
+
+
+
+
+
 
 #sidebar{
 	position: fixed;
