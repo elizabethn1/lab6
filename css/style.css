@@ -9,7 +9,9 @@
 }
 
 #navbar-container ul{
-
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 #navbar-container ul li{
@@ -21,6 +23,10 @@
 	padding: 10px 20px;
 	text-deocration: none;
 	display: block;
+}
+
+#navbar-container ul li a:hover{
+	background-color: #000;
 }
 
 #onpage{
