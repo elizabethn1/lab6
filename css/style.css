@@ -13,7 +13,7 @@
 }
 
 #sidebar-container ul{
-	
+	list-style-type: none;
 }
 
 #sidebar-container ul li{
